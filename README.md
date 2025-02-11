@@ -1,4 +1,6 @@
 
+Note - this is the working CLEAN version of this code, to be used for all ongoing/future projects.  We also have a legacy version of the code at [link] which shows exactly what we did for the flood screening paper
+
 ## Code & Datasets for a Large-n systematic mapping of flash flood literature
 
 We reviewed abstracts of peer-reviewed work published between January 2000 and July 2020 in scientific journals, technical conferences and multi-author books. A total of 3748 abstracts from Web of Science Core collection were screened for relevance. 
