@@ -26,8 +26,8 @@ data_bib      <- bib_all[which(bib_all$Screen2_Social == TRUE),]
 data_bib$Screen2_Assessed <- NA
 data_bib$Screen2_Reject   <- NA
 data_bib$Screen2_methods  <- ""
-data_bib$Screen2_topic    <- ""     
 
+data_bib$Screen2_topic    <- ""     
 data_bib$Screen2_Planning <- NA
 data_bib$Screen2_assessment <- ""
 data_bib$Screen2_before     <- "" 

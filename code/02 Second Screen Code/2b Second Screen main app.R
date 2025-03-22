@@ -25,7 +25,7 @@ library(rmdformats)
 
 rm(list=ls())
 # adjust this to the appropriate folder on your system
-Workingfile <- "./data/03_Data-ready-for-second-screen/Bib1_ready for screen2.RData"
+Workingfile <- "/Users/hlg5155/Documents/GitHub/greatrex-lab/Project Bibliometric Mapping/Main_Screening_Code_Flood/data/04_Data-ready-2nd-screen/MainScreeningData_Screen1_complete.RData"
 
 load(Workingfile)
 
@@ -35,9 +35,7 @@ load(Workingfile)
 ## extra check to make sure screen 1 is complete - 
 ## everything in Screen1_Assessed is either true or false
 data_bib$Screen1_Assessed[which(is.na(data_bib$Screen1_Assessed)==TRUE)] <- FALSE   
-
 data_bib$Screen1_Reject[which(is.na(data_bib$Screen1_Reject)==TRUE)] <- FALSE
-data_bib$Screen2_Assessed[which(is.na(data_bib$Screen2_Assessed)==TRUE)] <- FALSE
 data_bib$Screen3_Assessed[which(is.na(data_bib$Screen3_Assessed)==TRUE)] <- FALSE
 data_bib$Screen3_Assessed_v2[which(is.na(data_bib$Screen3_Assessed_v2)==TRUE)] <- FALSE
 
